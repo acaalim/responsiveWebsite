@@ -111,6 +111,10 @@
     fill: #FFFFFF;
 }
 
+/* another section  */
+.another-col {
+    width: clamp(300px, 50vw, 600px);
+}
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
     .custom-shape-divider-top-1601420726 svg {
