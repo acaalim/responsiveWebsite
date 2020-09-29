@@ -118,9 +118,17 @@
 }
 
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
     .custom-shape-divider-top-1601420726 svg {
         width: calc(146% + 1.3px);
         height: 65px;
+    }
+    .hero-col {
+        max-width: 100%;
+        width: clamp(300px, 50vw, 600px);
+        padding: 0;
+    }
+    .hero-img {
+        display: none;
     }
 }
