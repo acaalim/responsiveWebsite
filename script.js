@@ -13,3 +13,8 @@ menuItem.forEach((item) => {
         }
     });
 });
+
+function toggle() {
+    menuBtn.classList.toggle("open");
+    menuItems.classList.toggle("open");
+}
