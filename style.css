@@ -69,3 +69,8 @@
     padding-left: 3rem;
     text-transform: uppercase;
 }
+
+.section p {
+    color: #5a4d70;
+    padding-right: 1rem;
+}
