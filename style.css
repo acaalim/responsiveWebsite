@@ -77,4 +77,5 @@
 
 .hero-section img {
     width: clamp(250px, 30vw, 500px);
+    transform: scaleX(-1);
 }
