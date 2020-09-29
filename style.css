@@ -16,3 +16,9 @@
     color: #111111;
     font-size: 2rem;
 }
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
