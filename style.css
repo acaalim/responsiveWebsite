@@ -22,3 +22,8 @@
     display: flex;
     align-items: center;
 }
+
+.menu-items li a {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+}
