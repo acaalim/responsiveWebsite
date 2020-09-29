@@ -35,6 +35,17 @@
     background-color: #ccc7d3;
 }
 
+/* nav menu button  */
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1.5 rem;
+    height: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
 /* sections */
 .section {
     position: relative;
