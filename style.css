@@ -62,3 +62,10 @@
     color: #ccc7d3;
     text-transform: uppercase;
 }
+
+.section h2 {
+    font-size: clamp(18px, 2.5vw, 60px);
+    color: #5a4d70;
+    padding-left: 3rem;
+    text-transform: uppercase;
+}
