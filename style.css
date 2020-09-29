@@ -32,3 +32,12 @@
 .menu-items li a:hover {
     background-color: #ccc7d3;
 }
+
+/* sections */
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
