@@ -79,3 +79,42 @@
     width: clamp(250px, 30vw, 500px);
     transform: scaleX(-1);
 }
+
+.custom-shape-divider-top-1601420299 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+/* custom shape for hero section  */
+.custom-shape-divider-top-1601420726 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1601420726 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-top-1601420726 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1601420726 svg {
+        width: calc(146% + 1.3px);
+        height: 65px;
+    }
+}
